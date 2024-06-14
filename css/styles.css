@@ -9,20 +9,31 @@ button {
 	width: 100px;
 	height: 6vh;
 	cursor: pointer;
+	margin: 1%;
+	margin-bottom: 2%;
 }
 
 h1 {
 	color: aliceblue;
 }
 
-.container {
+.grid {
 	display: flex;
+	flex-direction: column;
 	flex-wrap: wrap;
-	width: 980px;
+	width: 37vw;
+	height: 37vw;
 }
 
-div {
-	border: solid 1px red;
+.grid-rows {
+	display: flex;
+	flex-grow: 1;
+	flex-direction: row;
+}
+
+.grid-cell {
+	border: solid 1px #28282b;
+	flex-grow: 1;
 	/* height: 50px;
 	width: 50px; */
 }
